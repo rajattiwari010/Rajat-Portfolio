@@ -1,0 +1,224 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5de53267ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIOS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>REACT.JS+DSA</span> Enthusiast</p>
+                <h1>Hi, I'm <span>Rajat Tiwari</span><br> from GEC Raipur</h1>
+            </div>
+        </div>
+    </div>
+    <!--        ABOUT SECTION -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>I'm RAJAT TIWARI, pursuing my B.tech degree from GEC Raipur. I am very much deciplined and have keen interest in WEB-DEVELOPMENT and DSA. I am eagerly waiting to add value in your company by my skills.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('Experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('Education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Website Development</li>
+                            <li><span>Data Structure & Algorithms</span><br>Completed The DSA Concepts</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>HACKATHON</span><br>Paticipated in <strong>SIH</strong></li>
+                            <li><span>Executive</span><br>I was executive in college coding club <strong>CFC</strong>
+                            </li>
+                            <li><span>Contests</span><br>Participated in coding contests on
+                                <strong>CODECHEF,LEETCODE,ETC</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>B.tech</span><br>Pursuing from GEC Raipur</li>
+                            <li><span>12th</span><br>Completed my 12th from DIS(96%)</li>
+                            <li><span>10th</span><br>Completed my 10th from DIS(90%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod reprehenderit voluptates animi,
+                        unde totam autem. Adipisci mollitia qui, </p>
+                    <a href="https://github.com/rajattiwari010/PROJECTS_WEB_DEV">learn mode</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>DSA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod reprehenderit voluptates animi,
+                        unde totam autem. Adipisci mollitia qui, </p>
+                    <a href="#">Learn mode</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>Projects</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod reprehenderit voluptates animi,
+                        unde totam autem. Adipisci mollitia qui, </p>
+                    <a href="https://github.com/rajattiwari010/PTOJECTS-CPP-">learn mode</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTOFOLIO -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Wroks</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>AAAAA</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>CCCC</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>BBBB</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore ipsa dolore nemo quo deserunt voluptas quia consequatur, cupiditate neque.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p>r@gmail.com</p>
+                   <p>6260996893</p>
+                   <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rajat-tiwari-832704241/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/imrajat_010?t=h0iKVqIcsE2QJif56P2R1Q&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100089923628810&mibextid=ZbWKwL"><i class="fa-brands fa-linkedin"></i></a>
+                   </div>
+                   <a href="background.png" download class="btn btn2">Download</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>This Portfolio is made by <i class="fa-solid fa-fire"></i>Rajat Tiwari</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzRfju8F69y9sz4AcNNGTEKH_QkzSuIbQFXMWHj0x3houXUdCbVH_5bZYad83aNkfbHbA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
+
+
