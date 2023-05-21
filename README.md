@@ -1,12 +1,12 @@
 # Portfolio
 
 I have made a fully responsive website which depicts my Projects, Experience, Contact and a section for your valuable respponse.
-Sequence Goes like:-
-1-Home section
-2-About section
-3-Service section
-4-Portfolio section
-5-Contact section
+Sequence Goes like:-<br>
+1-Home section<br>
+2-About section<br>
+3-Service section<br>
+4-Portfolio section<br>
+5-Contact section<br>
 
 ## Screenshot
 ![Screenshot 2023-05-21 105906](https://github.com/rajattiwari010/Rajat-Portfolio/assets/115210236/b06aa061-fe5f-4462-84f4-902f52e9775f)
