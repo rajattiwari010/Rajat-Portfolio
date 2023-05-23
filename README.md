@@ -13,8 +13,6 @@ Sequence Goes like:-<br>
 
 ![Screenshot 2023-05-21 105951](https://github.com/rajattiwari010/Rajat-Portfolio/assets/115210236/7e51c201-305d-44b9-a53e-2773238372f1)
 
-![Screenshot 2023-05-21 105832](https://github.com/rajattiwari010/Rajat-Portfolio/assets/115210236/e6d83e17-4ce8-49fb-81c6-443374fb098d)
-
 ![Screenshot 2023-05-21 105930](https://github.com/rajattiwari010/Rajat-Portfolio/assets/115210236/7e6b98ee-b10a-4996-9691-4b617f3a14e0)
 
 
